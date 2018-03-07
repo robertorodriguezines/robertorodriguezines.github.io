@@ -1,1 +1,178 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8"/>
+	<meta name="description" content="Pagina Web de ejemplo"/>
+	<meta name="keywords" content="HTML5, CSS3, flex"/>
+	<meta name="author" content="Roberto Rodríguez Inés"/>
+	<title>Ejemplo maquetacion Flexbox</title>
+	<style type="text/css">
+		div.container {
+        display: flex;
+        flex-direction: column; 
+    		width: 100%;
+    		font-family: verdana;
+		}
+		nav {
+    		overflow: hidden;
+    		background-color: #ff5722;
+		}
+		nav a {
+    		float: right;
+    		display: block;
+    		color: white;
+    		background-color: #ff5722;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}
+		nav a:hover {
+    		background-color: #ffab91;
+    		color: black;
+		}
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+        color: white;
+        background-color: black;
+        justify-content: center;
+    }
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+    .text-content{
+      width: 75%;
+    }
+    .image-content{
+      width: 20%;
+    }
+    .columns {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #ff5722;
+        color: white;
+        text-align: center;
+    }
+    .items{
+        padding: 15px;
+        width: 30%;
+    }
+    .contact {
+        padding: 15px;
+        text-align: center;
+    }
+    .contacta{
+        width: 16%;
+        padding: 10px;
+        color: white; 
+        background-color: #ff5722;
+        border-style: solid;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .item-footer{
+        padding: 20px;
+        width: 18%;
+    }
+		span{
+			   float: left;
+    		display: block;
+    		color: #f2f2f2;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}	
+		h3{
+			text-align: center;
+		}
+		header img {
+			width: 100%;
+    		height: auto;
+		}
+		img{
+			float: right;
+			display: block;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			  <span>LOGO</span>
+    		<a href="#">Contacto</a>
+    		<a href="#">Blog</a>
+    		<a href="#">Proyectos</a>
+			  <a href="#">Servicios</a>
+    		<a href="#">Inicio</a>
+		</nav>
+		
+    <header>
+   			<img src="https://www.w3schools.com/css/trolltunga.jpg">
+		</header>
+
+		<div class="content">
+  		<div class="text-content">
+        <p>
+  			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  			</p>
+      </div>
+      <div class="image-content">
+        <img src="https://www.w3schools.com/css/pineapple.jpg" width="150">
+      </div>
+		</div>
+		<div class="columns">
+      <div class="items"><h3>Producto1</h3><p> esto es la descipcion del producto o servicio uno</p></div>
+		  <div class="items"><h3>Producto1</h3><p> esto es la descipcion del producto o servicio uno</p></div>
+		  <div class="items"><h3>Producto1</h3><p> esto es la descipcion del producto o servicio uno</p></div>
+    </div>
+		<div class="contact"><h3>Si quiere saber mas contacte con nosotros <br><br> <div class="contacta"> CONTACTA</div></h3></div>
+
+		<footer>
+      <div class="item-footer">
+          <h4>Menu</h4>
+          Mapa Web <br>
+          Aviso legal <br>
+          Condiciones de uso <br>
+      </div>
+      <div class="item-footer">
+        <h4>Social</h4>
+          Facebook <br>
+          Twitter <br>
+          Google+ <br>
+      </div>
+      <div class="item-footer">
+        <h4>Contacto</h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+      </div>
+      <div class="item-footer">
+        <h4>Sobre nosotros</h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+      </div>
+    </footer>
+
+	</div>
+</body>
+</html>
+
+
+
+
+
+
