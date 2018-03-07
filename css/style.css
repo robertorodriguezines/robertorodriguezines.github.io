@@ -1,0 +1,90 @@
+    div.container {
+        display: flex;
+        flex-direction: column; 
+    		width: 100%;
+    		font-family: verdana;
+		}
+		nav {
+    		overflow: hidden;
+    		background-color: #ff5722;
+		}
+		nav a {
+    		float: right;
+    		display: block;
+    		color: white;
+    		background-color: #ff5722;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}
+		nav a:hover {
+    		background-color: #ffab91;
+    		color: black;
+		}
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+        color: white;
+        background-color: black;
+        justify-content: center;
+    }
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+    .text-content{
+      width: 75%;
+    }
+    .image-content{
+      width: 20%;
+    }
+    .columns {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #ff5722;
+        color: white;
+        text-align: center;
+    }
+    .items{
+        padding: 15px;
+        width: 30%;
+    }
+    .contact {
+        padding: 15px;
+        text-align: center;
+    }
+    .contacta{
+        width: 16%;
+        padding: 10px;
+        color: white; 
+        background-color: #ff5722;
+        border-style: solid;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .item-footer{
+        padding: 20px;
+        width: 18%;
+    }
+		span{
+			   float: left;
+    		display: block;
+    		color: #f2f2f2;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}	
+		h3{
+			text-align: center;
+		}
+		header img {
+			width: 100%;
+    		height: auto;
+		}
+		img{
+			float: right;
+			display: block;
+		}
